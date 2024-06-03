@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/95cc21a062.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>About Page</title>
+</head>
+<style>
+    .navbar{
+        overflow: hidden;
+        background-color: aliceblue;
+    }
+    .navbar a, .dropdown:hover .dropbtn{
+        text-decoration: none;
+        list-style: none;
+    }
+    .dropdown-content{
+display:none;
+position:absolute;
+background-color: #f9f9f9;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+    
+    .dropdown{
+float:left;
+overflow:hidden;
+
+    }
+    dropdown-content a{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+}
+
+.dropdown-content a:hover{
+background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+display: block;
+}
+.dropdown-content a{
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: center;
+}
+.skip-link{
+position: absolute;
+left: -10000px;
+top: auto;
+width: 1px;
+height: 1px;
+overflow: hidden;
+
+}
+.skip-link:focus {
+transform: translateX(10000px);
+background: #ffb6c1;
+color: white;
+padding: 8px;
+}
+table, th, td {
+  border:1px solid #cec8ef;
+  padding: 5px;
+  text-align: left;
+}
+th, td {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+</style>
+<body>
+
+    <section id="header">
+        <a href="index.html"><img src="img/brandlogo.PNG" class="logo" alt="brand logo image" height="75" width="90"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <div class="dropdown"> 
+                    <button class="dropbtn">
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                    <a href="moisturizer.html">Moisturizer</a>
+                    <a href="cleanser.html">Cleanser</a>
+                    <a href="essence.html">Essence</a>
+                    <a href="softener.html">Softener</a>
+                    <a href="dryersheets.html">Dryer Sheets</a>
+                    <a href="dishwasherpods.html">Dishwasher Pods</a>
+                </div>
+            </div>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+        <a href="#main" class="skip">Skip to main content</a>
+
+    </section>
+   
+    <section id="page-header" class="about-header">
+
+        <h2>#KnowUs </h2>
+
+        <p>Lorem ipsum dolor sit amet, consectetur </p>
+
+    </section>
+    <main id="main">
+    <section id="about-head" class="section-p1">
+        <img src="img/Designer (5).png" alt="">
+        <div>
+            <h2>Who We Are?</h2>
+            <p>IDIGIMART Inc. started operating in a home garage and has expanded to a warehouse. 25 years in business, IDIGIMART Inc. is an E-commerce shop that operates as a small business. 
+                We are committed to providing excellent customer support and delivering quality product to your door fast. We initally only operated domestically in California but have extended to selling internationally. </p>
+
+            <abbr title="CallToAction">Purchase any item with FREE Ground Shipping now with USPS.</abbr>
+
+            <br><br>
+
+            <marquee bgcolor="#ffb6c1" loop="-1" scrollamount="6" width="100%">Purchase any item with FREE Ground Shipping now with USPS.
+            </marquee>
+        </div>
+    </section>
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <h6>Free Shipping</h6>
+        </div>
+        <div class="fe-box">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <h6>Promotions</h6>
+        </div>
+        <div class="fe-box">
+            <h6>Happy Sell</h6>
+        </div>
+        <div class="fe-box">
+            <h6>F24/7 Support</h6>
+        </div>
+    </section>
+
+    <section id="table">
+ <center><h3>Source Log</h3></center>
+ <br>
+    <table style="width:100%">
+      <tr>
+        <th>Name of Source</th>
+        <th style="width: 60%">Source Origin & Modifications</th>
+    </tr>
+      <tr>
+        <td>Original</td>
+        <td>All photos are original and taken by me, except for the icons, some buttons, and the logos. </td>
+       
+      </tr>
+      <tr>
+        <td>Original</td>
+        <td>All Photos were edited by compressing them to higher quality on Photoshop.</td>
+       
+      </tr>
+      <tr>
+        <td>Microsoft Bing Copilot</td>
+        <td>The brand logo images in the header and footer were generated by me using the AI Assistant, Microsoft Bing Copilot.</td>
+       
+      </tr>
+      <tr>
+        <td>Font Awesome</td>
+        <td>Javascript icons for shopping cart and shopping bag in all the pages. </td>
+        
+      </tr>
+    </tr>
+    <tr>
+      <td>https://google.com</td>
+      <td>Sign in Page Link</td>
+     
+    </tr>
+</tr>
+<tr>
+  <td>https://usps.com</td>
+  <td>Track Your Order Page Link</td>
+ 
+</tr>
+<tr>
+    <td>https://codepen.io/tmoran18/pen/WVomWw</td>
+    <td>PHP Contact Form Source Code from CodePen website</td>
+   
+  </tr>
+  <tr>
+    <td>https://www.w3schools.com/howto/howto_css_checkout_form.asp</td>
+    <td>Customer Checkout Form Source Code from w3schools website </td>
+   
+  </tr> 
+<tr>
+    <td>https://w3schools.com</td>
+    <td>form.html code template</td>
+   
+  </tr>
+  <tr>
+    <td>https://instagram.com</td>
+    <td>Instagram Social Link via Font Awesome Icon</td>
+   
+  </tr>
+  <tr>
+    <td>https://facebook.com</td>
+    <td>Facebook Social Link via Font Awesome Icon</td>
+   
+  </tr>
+  <tr>
+    <td>https://twitter.com</td>
+    <td>Twitter Social Link via Font Awesome Icon</td>
+   
+  </tr>
+    </table>
+    </section>
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest store and <span>special offers.</span> </p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            
+            <button onclick="window.location.href='form.html';"style="border:none">
+                Sign Up
+            </button>
+
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/brandlogo.PNG" alt="brand logo image" height= 75px width = 90px;>
+            <h4>Contact</h4>
+            <p><strong>Address: </strong> 123 Ball Road, Cypress, CA, 77410 </p>
+            <p><strong>Phone:</strong> (909)-782-2111</p>
+            <p><strong>Hours:</strong> 8:00 a.m. - 5:00 p.m. PST, Mon - Sun </p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="about.html">Delivery Information</a>
+            <a href="about.html">Privacy Policy</a> 
+            <a href="about.html">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="https://google.com/">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <a href="cart.html">My Wishlist</a>
+            <a href="http://usps.com/">Track My Order</a>
+            <a href="contact.html">Help</a>
+        </div>
+
+        <div class="copyright">
+            <p> Copyright © Sarah Park 2024 </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
